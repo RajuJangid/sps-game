@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css">
+    <title>Stone, Paper, Scissor</title>
+</head>
+<body>
+    <section class="bkg">
+        <h1 id="heading1">STONE-PAPER-SCISSOR</h1>
+        <h2 id="rule" onclick="rb()">RULES</h2>
+        <h2 id="play" onclick="pb()">PLAY</h2>
+        <table id="ruleboard">
+            <tr id="a">
+                <th>You</th>
+                <th>Computer</th>
+                <th>Result</th>
+            </tr>
+            <tr class="b">
+                <td>Stone</td>
+                <td>Scissor</td>
+                <td>Won</td>
+            </tr>
+            <tr class="b">
+                <td>Stone</td>
+                <td>Paper</td>
+                <td>Lost</td>
+            </tr>
+            <tr class="b">
+                <td>Stone</td>
+                <td>Stone</td>
+                <td>Tie</td>
+            </tr>
+            <tr class="c">
+                <td>Paper</td>
+                <td>Scissor</td>
+                <td>Lost</td>
+            </tr>
+            <tr class="c">
+                <td>Paper</td>
+                <td>Paper</td>
+                <td>Tie</td>
+            </tr>
+            <tr class="c"> 
+                <td>Paper</td>
+                <td>Stone</td>
+                <td>Won</td>
+            </tr>        
+            <tr class="d">
+                <td>Scissor</td>
+                <td>Scissor</td>
+                <td>Tie</td>
+            </tr>
+            <tr class="d"> 
+                <td>Scissor</td>
+                <td>Paper</td>
+                <td>Won</td>
+            </tr>
+            <tr class="d">
+                <td>Scissor</td>
+                <td>Stone</td>
+                <td>Lost</td>
+            </tr>
+        </table>
+        <div id="playboard">
+            <p id="inst1"> <b>Choose one of these:</b></p>
+            <h3 id="stoneu" onclick="Computerchooses1()">STONE</h3>
+            <h3 id="paperu" onclick="Computerchooses2()">PAPER</h3>
+            <h3 id="scissoru" onclick="Computerchooses3()">SCISSOR</h3>
+            <p id="inst2"><b>Computer chooses:</b></p>
+            <h3 id="stonec">STONE</h3>
+            <h3 id="paperc">PAPER</h3>
+            <h3 id="scissorc">SCISSOR</h3>
+            <p id="result"><b>RESULT:</b></p>
+            <p id="won"><b>You Won</b></p>
+            <p id="tie"><b>Match Tie</b></p>
+            <p id="lost"><b>You Lost</b></p>
+            <img src="rotate-cw.svg" alt="Refresh" id="refresh" onclick="rf()">
+        </div>
+    </section>
+</body>
+<script src="script5.js"></script>
+</html>

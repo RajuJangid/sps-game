@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Dancing+Script:wght@700&family=Joan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.bkg{
+    width: 98.25vw;
+    height: 97.4vh;
+    background-color: aquamarine;
+    border: 5px solid green;
+}
+#heading1{
+    color: rgba(61, 7, 92, 0.89);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    margin-left: 424px;
+    background-color: rgba(235, 130, 165, 0.712);
+    width: 550px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 40px;
+}
+#rule{
+    color: rgb(168, 115, 15);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    margin-left: 280px;
+    background-color: rgba(157, 240, 33, 0.863);
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 40px; 
+    cursor: pointer;
+}
+#rule:hover{
+    background-color: rgba(56, 88, 8, 0.938);
+}
+#rule:active{
+    background-color: rgba(34, 51, 8, 0.938);
+}
+#ruleboard{
+    background-color: bisque;
+    height: 55vh;
+    width: 80vw;
+    margin-left: 180px;
+    margin-top: 40px;
+    border: 2px solid brown;
+    visibility: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#a{
+    background-color: darkgreen;
+    color: crimson;
+}
+.b{
+    background-color: rgba(83, 83, 228, 0.603);
+    color: black;
+}
+.c{
+    background-color: aliceblue;
+    color: cadetblue;
+}
+.d{
+    background-color: rgba(83, 83, 228, 0.603);
+    color: black;
+}
+#play{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -65px;
+    margin-left: 920px;
+    background-color: whitesmoke;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    border-radius: 40px;
+    cursor: pointer;
+}
+#play:hover{
+    background-color: rgba(167, 138, 138, 0.342);
+}
+#play:active{
+    background-color: rgb(85, 74, 74);
+}
+#playboard{
+    background-color: bisque;
+    height: 55vh;
+    width: 80vw;
+    margin-left: 177px;
+    margin-top: -361px;
+    border: 2px solid brown;
+    border-radius: 7px;
+    visibility: hidden;
+}
+#inst1{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
+#stoneu{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    margin-left: 60px;
+    background-color: rgba(255, 68, 0, 0.658);
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+#stoneu:active{
+    background-color: brown;
+}
+#paperu{
+    color: rgb(121, 121, 13);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -60px;
+    margin-left: 460px;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+#paperu:active{
+    background-color: brown;
+}
+#scissoru{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -65px;
+    margin-left: 850px;
+    background-color: green;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+#scissoru:active{
+    background-color: brown;
+}
+
+
+#stonec{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -46px;
+    margin-left: 405px;
+    background-color: rgba(255, 68, 0, 0.658);
+    width: 200px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 40px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paperc{
+    color: rgb(121, 121, 13);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -64px;
+    margin-left: 405px;
+    background-color: white;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+#scissorc{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -64px;
+    margin-left: 405px;
+    background-color: green;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+#inst2{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 25px;
+    margin-top: 55px;
+    font-size: 30px;   
+}
+#result{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 25px;
+    margin-top: 45px;
+    font-size: 40px;
+}
+#won{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 250px;
+    margin-top: -45px;
+    font-size: 40px;
+    visibility: hidden;
+}
+#tie{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 235px;
+    margin-top: -45px;
+    font-size: 40px;
+    visibility: hidden;
+}
+#lost{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 235px;
+    margin-top: -45px;
+    font-size: 40px;
+    visibility: hidden;
+}
+#refresh{
+    background-color: rgba(124, 180, 39, 0.719);
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: -40px;
+    left: 900px;
+    cursor: pointer;
+    border: 1px solid rgba(64, 102, 7, 0.993);
+}
+#refresh:active{
+    background-color: rgba(64, 102, 7, 0.993);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px){
+.bkg{
+    width: 315vw;
+    height: 315vh;
+}
+#heading1{
+    margin-top: 175px;
+    margin-left: 174px;
+    width: 900px;
+    height: 170px;
+    border-radius: 60px;
+    font-size: 70px;
+}
+#rule{
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 380px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 60px;
+}
+#play{
+    margin-top: -125px;
+    margin-left: 800px;
+    width: 380px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 60px;
+}
+#playboard{
+    height: 65vh;
+    width: 280vw;
+    margin-left: 60px;
+    margin-top: -491px;
+    border-radius: 7px;
+}
+#ruleboard{
+    height: 75vh;
+    width: 280vw;
+    margin-left: 80px;
+    margin-top: 70px;
+    font-size: 29px;
+}
+}
