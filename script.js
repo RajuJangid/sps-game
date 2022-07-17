@@ -15,6 +15,12 @@ function rb(){
     }
     else{
         r.style.visibility = 'hidden';
+        st.style.visibility = 'hidden';
+        pr.style.visibility = 'hidden';
+        sc.style.visibility = 'hidden';
+        t.style.visibility = 'hidden';
+        w.style.visibility = 'hidden';
+        l.style.visibility = 'hidden';
     }
 }
 
