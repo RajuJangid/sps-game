@@ -12,6 +12,12 @@ function rb(){
     if(r.style.visibility === 'hidden'){
         r.style.visibility = 'visible';
         p.style.visibility = 'hidden';
+        st.style.visibility = 'hidden';
+        pr.style.visibility = 'hidden';
+        sc.style.visibility = 'hidden';
+        t.style.visibility = 'hidden';
+        w.style.visibility = 'hidden';
+        l.style.visibility = 'hidden';
     }
     else{
         r.style.visibility = 'hidden';
