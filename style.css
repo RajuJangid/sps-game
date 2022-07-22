@@ -5,8 +5,8 @@
     padding: 0;
 }
 .bkg{
-    width: 98.25vw;
-    height: 97.4vh;
+    width: 99.25vw;
+    height: 98vh;
     background-color: aquamarine;
     border: 5px solid green;
 }
@@ -24,6 +24,31 @@
     border: 2px solid black;
     border-radius: 40px;
     font-size: 40px;
+}
+#score{
+    color: rgb(158, 230, 43);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(49, 121, 230);
+    border: 2px solid rgb(3, 85, 7);
+    width: 170px;
+    padding: 10px;
+    position: absolute;
+    top: 45px;
+    right: 70px;
+}
+#scorepoint{
+    color: rgb(158, 230, 43);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: rgb(49, 121, 230);
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 48px;
+    right: 80px;
 }
 #rule{
     color: rgb(168, 115, 15);
@@ -51,7 +76,7 @@
     height: 55vh;
     width: 80vw;
     margin-left: 180px;
-    margin-top: 40px;
+    margin-top: 30px;
     border: 2px solid brown;
     visibility: hidden;
     font-family: 'Courier New', Courier, monospace;
@@ -72,6 +97,13 @@
 .d{
     background-color: rgba(83, 83, 228, 0.603);
     color: black;
+}
+#scorerule{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-left: 200px;
+    visibility: hidden;
 }
 #play{
     color: red;
@@ -99,7 +131,7 @@
     height: 55vh;
     width: 80vw;
     margin-left: 177px;
-    margin-top: -361px;
+    margin-top: -376px;
     border: 2px solid brown;
     border-radius: 7px;
     visibility: hidden;
@@ -270,7 +302,7 @@
     background-color: rgba(64, 102, 7, 0.993);
 }
 
-@media only screen and (min-width: 0px) and (max-width: 480px){
+@media only screen and (min-width: 0px) and (max-width: 500px){
 .bkg{
     width: 320vw;
     height: 315vh;
@@ -290,6 +322,31 @@
     height: 120px;
     border-radius: 60px;
     font-size: 60px;
+}
+#score{
+    color: rgb(158, 230, 43);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(49, 121, 230);
+    border: 2px solid rgb(3, 85, 7);
+    width: 170px;
+    padding: 10px;
+    position: absolute;
+    top: 45px;
+    left: 910px;
+}
+#scorepoint{
+    color: rgb(158, 230, 43);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: rgb(49, 121, 230);
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 48px;
+    left: 1040px;
 }
 #play{
     margin-top: -125px;
