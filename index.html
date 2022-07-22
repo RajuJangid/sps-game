@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style5.css">
     <title>Stone, Paper, Scissor</title>
 </head>
 <body>
     <section class="bkg">
         <h1 id="heading1">STONE-PAPER-SCISSOR</h1>
+        <h3 id="score">SCORE: </h3>
+        <h3 id="scorepoint"></h3>
         <h2 id="rule" onclick="rb()">RULES</h2>
         <h2 id="play" onclick="pb()">PLAY</h2>
         <table id="ruleboard">
@@ -64,6 +66,7 @@
                 <td>Lost</td>
             </tr>
         </table>
+        <p id="scorerule">If you win, Your score will be increase by +1</p>
         <div id="playboard">
             <p id="inst1"> <b>Choose one of these:</b></p>
             <h3 id="stoneu" onclick="Computerchooses1()">STONE</h3>
@@ -81,5 +84,5 @@
         </div>
     </section>
 </body>
-<script src="script.js"></script>
+<script src="script5.js"></script>
 </html>
